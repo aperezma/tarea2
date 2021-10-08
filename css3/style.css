@@ -1,0 +1,26 @@
+.box1{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+.box2{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+
+.box3{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+}
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    border: solid black 5px;
+    height: 600px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
